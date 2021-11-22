@@ -1,5 +1,5 @@
 #include <iostream>
-#include "stack.cpp"
+#include "stack.h"
 
 using namespace std;
 
@@ -7,7 +7,7 @@ int main(void) {
 Stack s;
 
 
-for(int i = 0; i < 100; i+3){
+for(int i = 0; i < 100; i+=3){
 s.push(i);
 }
 
